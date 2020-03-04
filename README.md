@@ -67,7 +67,7 @@ $ geth --rpc --rpcaddr localhost --rpcport 6666 --rpcapi "personal,eth,web3,net"
 9. Check the balance now:
 
 ```
-eth.getBalance(eth.coinbase)
+> eth.getBalance(eth.coinbase)
 370000000000000000000
 ```
 
